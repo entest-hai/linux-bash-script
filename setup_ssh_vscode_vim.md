@@ -37,5 +37,25 @@ Test
 ssh ubuntu@13.214.81.16
 ```
 
-## Setup vscode ssh into EC2 
+## Setup vscode ssh into EC2
+[Follow this](https://github.com/entest-hai/aws-devops/blob/setup-vscode-cloud9-ssm/README.md)
+
+## Vscode shortcut key setting 
+- Open command palette 
+```
+command/ctr p 
+```
+- Search for **keyboard shortcuts**
+- Search for **close file** for example 
+edit either in JSON or GUI 
+
+## Connect to GitHub repository 
+```
+eval $(ssh-agent)
+```
+add key form local machine 
+```
+ssh-add ~/.ssh/id_rsa_git
+```
+
 
