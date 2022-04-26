@@ -47,7 +47,25 @@ command/ctr p
 ```
 - Search for **keyboard shortcuts**
 - Search for **close file** for example 
-edit either in JSON or GUI 
+- Edit either in JSON or GUI 
+
+## Vscode and Vim simulator keyboard conflict 
+```
+"vim.insertModeKeyBindings": [
+    {
+       "before": ["i", "i"],
+       "after": ["<esc>"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-j>": false,
+    "<C-b>": false
+  }
+}
+```
+## Some Vim Vscode shortcuts 
+- copy to clipboard: go to highlight mode, <C-c> to copy and <C-v> to paste 
+
 
 ## Connect to GitHub repository 
 ```
